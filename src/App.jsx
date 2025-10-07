@@ -46,7 +46,7 @@ const galleryImages = [
   'https://images.unsplash.com/photo-1504753793650-d4a2b783c15e?auto=format&fit=crop&w=800&q=80',
   'https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=80',
   'https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=800&q=80',
-  'https://images.unsplash.com/photo-1682596044370-b2b1dc91cf2b?q=80&w=1470&auto=format&fit=800&q=80'
+  'https://images.unsplash.com/photo-1682596044370-b2b1dc91cf2b?q=80&w=800&auto=format&fit=crop'
 ];
 
 const getPreferredDarkMode = () => {
