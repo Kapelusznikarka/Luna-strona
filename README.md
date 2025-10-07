@@ -41,3 +41,4 @@ Adres produkcyjny strony po wdrożeniu: `https://<twoja_nazwa_uzytkownika>.githu
 ## Licencja
 
 Projekt został przygotowany w ramach zadania demonstracyjnego.
+Deploy bump
