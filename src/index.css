@@ -2,17 +2,61 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  color-scheme: light dark;
+@layer base {
+  html {
+    color: theme(colors.espresso.700);
+    background: theme(colors.latte.200);
+  }
+  body {
+    @apply font-sans leading-relaxed text-[17px] md:text-[18px];
+  }
+  p {
+    @apply leading-relaxed;
+  }
+  small,
+  .meta {
+    @apply text-sm text-espresso-800/70;
+  }
+  ::selection {
+    background: theme(colors.caramel.500);
+    color: theme(colors.cream.50);
+  }
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  /* Nagłówków h1–h3 nie dotykamy – zachowują obecną rodzinę i wygląd */
 }
 
-html,
-body,
-#root {
-  height: 100%;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center rounded-xl2 px-5 py-3 font-medium bg-caramel-500 text-cream-50 shadow-soft transition-colors duration-250 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-caramel-500 focus-visible:ring-offset-2 focus-visible:ring-offset-latte-200;
+  }
+  .btn:hover {
+    @apply bg-caramel-600;
+  }
+  .btn:active {
+    @apply bg-caramel-700;
+  }
+  .btn-outline {
+    @apply border border-caramel-500 text-espresso-700 bg-transparent focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-caramel-500 focus-visible:ring-offset-2 focus-visible:ring-offset-latte-200;
+  }
+  .btn-outline:hover {
+    @apply bg-caramel-500 text-cream-50;
+  }
+  .chip {
+    @apply inline-flex items-center gap-2 rounded-full px-3 py-1 text-sm bg-latte-100;
+  }
+  .card {
+    @apply rounded-xl2 bg-cream-100 shadow-soft;
+  }
+  .prose-muted {
+    @apply text-espresso-800/85;
+  }
+  .eyebrow {
+    @apply tracking-[0.18em] text-xs font-medium text-espresso-800/60;
+  }
+  .link-underline {
+    @apply underline decoration-caramel-500/50 underline-offset-4 hover:decoration-caramel-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-caramel-500 focus-visible:ring-offset-2 focus-visible:ring-offset-latte-200;
+  }
 }
