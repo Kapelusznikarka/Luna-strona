@@ -46,7 +46,7 @@ const galleryImages = [
   'https://images.unsplash.com/photo-1504753793650-d4a2b783c15e?auto=format&fit=crop&w=800&q=80',
   'https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=80',
   'https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=800&q=80',
-  'https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80'
+  'https://unsplash.com/photos/a-piece-of-cake-on-a-plate-next-to-a-cup-of-coffee-6xEx4dELh8o'
 ];
 
 const getPreferredDarkMode = () => {
