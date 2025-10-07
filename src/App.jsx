@@ -64,7 +64,7 @@ const galleryImages = [
     alt: 'Zaparzacz do kawy i filiżanka na drewnianym blacie'
   },
   {
-    src: ''https://images.unsplash.com/photo-1682596044370-b2b1dc91cf2b?q=80&w=800&auto=format&fit=crop',
+    src: 'https://images.unsplash.com/photo-1682596044370-b2b1dc91cf2b?q=80&w=800&auto=format&fit=crop',
     alt: 'Kawałek ciasta na talerzyku'
   }
 ];
